@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Geral</title>
+    <link href="estiloProdutos.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="menu">
+        <a class ="inicio" href="index.html"><img  width="150px" src="src/ceunsp_desktop_pos.png" ></a>
+        <a class="ativ" href="Clientes.html">Cadastro de Clientes</a>
+        <a class="ativo" href="Produtos.html">Cadastro de Produtos</a>  
+            </marquee> 
+        
+    </div>
+    <div class="form">
+        <form name="formCliente">
+            <fieldset>
+                <legend>Cadastro de Produtos</legend>
+            <div class="form-group">
+                <label>Código</label>
+                <input class="input-control" type="number" size="5" id="codigo"/>
+            
+                <label class="right-inline">Nome </label>
+                <input class="input-control" type="text" size="40" id="nome" />
+                <br>
+               
+            </div>
+            <div class="form-group">
+                <label>Preço custo</label>
+                <input class="input-control" type="text" size="40" id="custo"/>
+
+                <label class="right-inline">Lucro %</label>
+                <input class="input-control" type="text" size="20" id="lucro"/>
+
+                <label class="right-inline">Preço Venda</label>
+                <input class="input-control" type="text" size="30" id="venda" />
+            </div>
+            <div class="form-group-c">
+                <label>ICSM %</label> 
+                <input class= "input-control" type="text" size="40" id="icms" />
+                
+                <label class="right-inline">NCM - NFE</label>
+                <input class="input-control" type="text" size="20" id="ncm"/>
+
+                <label class="right-inline">Unidade de Medida</label>
+                <input class="input-control" type="text" size="30" id="medida" />
+                
+            </div>
+            <div class="form-group">
+                <label>Marca</label>
+                <input class="input-control" type="text" size="40" id="marca"/>
+
+                <label class="right-inline">Categoria</label>
+                <input class="input-control" type="text" size="20" id="categoria"/>
+
+            </div>
+            <div class="form-group">
+                <label style="color: red">Origem</label> 
+                <input class="input-control" type="text" size="40" id="origem"/>
+
+                <label class="right-inline">Codigo de barras</label>
+                <input class="input-control" type="text" size="20" id="codigo de barras"/>
+
+            </div>
+            
+            <div class="aviso">
+                <label></label>
+                <h4>Campos em vermelho são obrigados para emissão NF-e</h4>
+             </div>
+            </fieldset>            
+        </form>
+    </div>
+    
+   
+    
+  
+</body>
+</html>

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    background-image: url(src/linha-preta-e-amarela-listrada-fundo-listrado-de-aviso-de-grunge_97458-60.jpg);
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.menu a.ativo {
+    background-image: none;
+    margin-right: 800px;
+    margin-top: 50px;
+   float: right ;
+  background-color: #0b22a4;
+  text-decoration: none;
+  color: #DDDDDD;
+  padding: 14px;
+  font-size: 17px;
+    
+}
+.menu a.ativo2
+ {
+     
+    background-image: none;
+  margin-right: 550px;
+  margin-top: -50px;
+ float: right ;
+ background-color: #0b22a4;
+  text-decoration: none;
+  color: #DDDDDD;
+  padding: 14px;
+  font-size: 17px;
+    
+  }
+  
+  
+  .menu img{
+      background-image: none;
+      width: 500px;
+    margin-right: 500px;
+    margin-top: 200px;
+   float: right ;}

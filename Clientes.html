@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Geral</title>
+    <link href="estiloClientes.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="menu">
+       <a class ="inicio" href="index.html"><img  width="150px" src="src/ceunsp_desktop_pos.png" ></a>
+        <a class="ativo" href="Clientes.html">Cadastro de Clientes</a>
+        <a class="ativo2" href="Produtos.html">Cadastro de Produtos</a>
+       
+        
+    </div>
+    <div class="form">
+        <form name="formCliente">
+            <fieldset>
+                <legend>Cadastro de Clientes</legend>
+            <div class="form-group">
+                <label>Código</label>
+                <input class="input-control" type="number" size="10" id="codigo"/>
+
+                <label class="right-inline">Nome </label>
+                <input class="input-control" type="text" size="20" id="nome" />
+
+                <label class="right-inline">RG</label>
+                <input class="input-control" type="number" size="10" id="cep" />
+            </div>
+            <div class="form-group">
+                <label>Endereço</label>
+                <input class="input-control" type="text" size="40" id="endereco"/>
+
+                <label class="right-inline">Bairro</label>
+                <input class="input-control" type="text" size="20" id="bairro"/>
+
+                <label class="right-inline">Cidade</label>
+                <input class="input-control" type="text" size="30" id="cidade" />
+            </div>
+            <div class="form-group">
+                <label>CEP</label>
+                <input class="input-control" type="text" size="40" id="cep"/>
+
+                <label class="right-inline">UF</label>
+                <input class="input-control" type="text" size="20" id="uf"/>
+
+                <label class="right-inline">Telefone</label>
+                <input class="input-control" type="text" size="30" id="telefone" />
+                <label class="right-inline">Celular</label>
+                <input class="input-control" type="text" size="20" id="celular"/>
+                <label class="right-inline">CPF/CNPJ </label>
+                <input class="input-control" type="text" size="20" id="cpf"/>
+            </div>
+            <div class="form-group">
+                
+                <label class="right-inline">Contato</label>
+                <input class="input-control" type="text" size="20" id="contato"/>
+
+                <label class="right-inline">E-mail pessoal</label>
+                <input class="input-control" type="text" size="30" id="email" />
+                <label class="right-inline">Nascimento</label>
+                <input class="input-control" type="text" size="20" id="nacimento"/>
+            </div>
+            
+            <div class="form-group">
+                <label>Observações</label>
+                <textarea class="input-control" id="observacoes"></textarea>
+               
+            </div>
+            
+            <div class="botao">
+                <label></label>
+                <button id="salvar">💾 Salvar</button>
+                <button id= "cancelar">❌ Cancelar </button> 
+                
+            </div>
+            </fieldset>            
+        </form>
+    </div>
+    
+    <div id="listagem"></div>
+    
+    <script src="cliente.js"></script>
+</body>
+</html>
